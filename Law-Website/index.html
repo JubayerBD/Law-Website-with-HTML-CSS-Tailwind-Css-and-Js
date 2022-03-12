@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css" integrity="sha512-bSncow0ApIhONbz+pNI52n0trz5fMWbgteHsonaPk42JbunIeM9ee+zTYAUP1eLPky5wP0XZ7MSLAPxKkwnlzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/regular.min.css" integrity="sha512-sWLOh8QiEOmwfP3jd0n7AneUOa6XKif5g8GU8FqdFMIbr6rYBt1PKWBp/Wv4E6PQ6N9lFtVAndujl9HbniDTog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css" integrity="sha512-6/gTF62BJ06BajySRzTm7i8N2ZZ6StspU9uVWDdoBiuuNu5rs1a8VwiJ7skCz2BcvhpipLKfFerXkuzs+npeKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css" integrity="sha512-8Vtie9oRR62i7vkmVUISvuwOeipGv8Jd+Sur/ORKDD5JiLgTGeBSkI3ISOhc730VGvA5VVQPwKIKlmi+zMZ71w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Animation On Scroll  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <section class="background fixed relative w-full">
+      <div class="header md:pt-16 w-full">
+        <!-- Top Section Start -->
+        <div class="top-header flex justify-between items-center bg-white py-4 lg:px-8 md:mx-12 md:px-8 lg:mx-64">
+          <div class="top-left">
+            <img src="images/logo.png" alt="" width="150">
+          </div>
+          <div class="top-right flex gap-4">
+            <span class="flex items-center">
+              <i class="fa-solid fa-mobile-screen-button pr-2"></i>
+              <p>+001-238576</p>
+            </span>
+            <span class="flex items-center">
+              <i class="fa-solid fa-location-dot pr-2"></i>
+              <p>Dhaka, Bangladesh</p>
+            </span>
+            <span class="flex items-center">
+              <i class="fa-regular fa-clock pr-2"></i>
+              <p>Mon-Sat: 9:00 - 5:00</p>
+            </span>
+          </div>
+        </div>
+        <!-- Top Section End -->
+
+        <!-- Navigation Start  -->
+        <div class="navigation flex justify-between bg-black text-white py-4 lg:mx-64 px-8 md:mx-12">
+          <ul class="flex gap-12 text-xl relative">
+            <span class="hot-button">HOT</span>
+            <li class="hot-one"><a href="#">Home</a></li>
+            <li class="hot-two"><a href="#">About</a></li>
+            <li class="hot-three"><a href="#">Services</a></li>
+            <li class="hot-four"><a href="#">Team</a></li>
+            <li class="hot-five"><a href="#">Contact</a></li>
+          </ul>
+          <ul class="flex gap-4">
+            <li><a href="#"><i class="fa-brands fa-linkedin text-xl"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter-square text-xl"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook-square text-xl"></i></a></li>
+          </ul>
+        </div>
+        <!-- Navigation End  -->
+        <!-- Mobile Navigation  -->
+        <div class="mobile-nav text-center text-xl">
+          <div class="mobile-top bg-black flex justify-between items-center px-8 py-4">
+            <div class="mobile-logo"><img src="images/logo.png" alt="" width="100px"></div>
+            <div class="mobile-menu-icon"><i class="menu-icon text-white fa-solid fa-bars"></i></div>
+          </div>
+          <ul class="mobile-menu bg-white py-4 hidden">
+            <li class="py-2 text-2xl"><a href="#">About</a></li>
+            <li class="py-2 text-2xl"><a href="#">Service</a></li>
+            <li class="py-2 text-2xl"><a href="#">Portfolio</a></li>
+            <li class="py-2 text-2xl"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Mobile Navigation End  -->
+
+        <!-- Slider Content Are  -->
+        <div class="slide-content pt-32 text-center">
+          <h1 class="text-4xl font-semi-bold text-white">LET OUR <span class="text-orange-500 tracking-widest">EXPERIENCE</span> BE YOUR GUID</h1>
+          <p class="text-white pt-4 px-4 md:px-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, aliquam!</p>
+          <div class="slider-button mt-4 flex justify-center gap-6">
+            <button class="slider-button-one bg-orange-400 px-4 py-2 rounded-lg uppercase text-white hover:bg-orange-600 hover:bg-orange-600"><a href="#">read more</a></button>
+            <button class="slider-button-two bg-gray-600 px-4 py-2 rounded-lg uppercase text-white hover:bg-orange-600"><a href="#">read more</a></button>
+          </div>
+        </div>
+        <!-- Slider Content Area End  -->
+      </div>
+    </section>
+
+    <!-- Welcome Section  -->
+    <section id="about" class="welcome">
+      <div data-aos="fade-up" class="welcome-heading">
+        <h2 class="uppercase text-2xl font-600 text-center pt-24 pb-4 font-medium">welcome to prolaw</h2>
+        <span class="horizontal-row"></span>
+        <p class="text-center pt-4 md:px-8 text-xl sm:text-2xl lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi temporibus sunt dolorem, impedit similique non quis asperiores assumenda quos illo.</p>
+      </div>
+      <div class="welcome-content px-4 md:px-12 pt-12 lg:flex flex-row justify-center items-center gap-4">
+        <div data-aos="fade-up" class="welcome-image w-full md:basis-1/2 px-8 py-8">
+          <div class="border-2 border-white bg-black opacity-40 w-84 h-80"></div>
+        </div>
+        <div data-aos="fade-down" class="welcome-text md:basis-1/2 sm:text-center md:text-left px-4 mt-4 sm:text-2xl text-lg lg:text-lg">
+          <p class="pb-2 md:text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, veritatis? Reprehenderit ex consequuntur excepturi nostrum culpa in dolorem facere inventore?</p>
+          <p class="pb-4 md:text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, illo dignissimos accusamus dolor aspernatur amet quod aliquam quos qui provident.</p>
+          <button class="bg-yellow-400 px-8 py-4 text-white uppercase mt-8 rounded-lg"><a href="#">Read more</a></button>
+        </div>
+      </div>
+    </section>
+    <!-- Welcome Section End  -->
+    
+    <!-- Service area  -->
+    <section id="service" class="service-area lg:flex md:flex gap-4 my-8 mx-4 lg:mx-0 text-center">
+      <div data-aos="flip-left" class="civil bg-gray-200 w-full h-52 md:h-60 py-8">
+        <i class="fa-solid fa-scale-unbalanced text-4xl m-auto"></i>
+        <h3 class="text-xl uppercase font-bold my-2">Civil Law</h3>
+        <p class="text-xl px-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, ea?</p>
+      </div>
+      <div data-aos="flip-left" class="criminal bg-gray-200 w-full h-52 md:h-60 md:mt-0 lg:mt-0 mt-8 text-white bg-[url('/images/1.jpg')] bg-cover bg-center">
+        <div class="criminal-background bg-black lg:h-60 h-52 py-8 md:h-60  opacity-80">
+          <i class="fa-solid fa-crown text-4xl m-auto"></i>
+          <h3 class="text-xl uppercase font-bold my-2">Criminal Law</h3>
+          <p class="text-xl px-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, ea?</p>
+        </div>
+      </div>
+      <div data-aos="flip-right" class="business bg-gray-200 md:mt-0 lg:mt-0 w-full h-52 md:h-60 py-8 mt-8">
+        <i class="fa-solid fa-hammer text-4xl m-auto"></i>
+        <h3 class="text-xl uppercase font-bold my-2">business Law</h3>
+        <p class="text-xl px-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, ea?</p>
+      </div>
+    </section>
+    <!-- Service area End -->
+
+    <!-- Practice Are Start  -->
+    <section class="bg-slate-800 lg:py-16 py-12">
+      <div class="practice-area">
+        <div data-aos="fade-left" class="practice-heading relative text-center">
+          <h2 class="uppercase text-2xl text-white mb-2 font-medium">Practice Area</h2>
+          <span class="horizontal-row"></span>
+          <p class="text-white lg:mx-72 py-4 text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, impedit?</p>
+        </div>
+        <!-- Four Box Area  -->
+        <div class="practice-content md:grid md:grid-cols-2 md:mx-4 gap-4">
+          <div data-aos="flip-right" class="identification text-center border border-white px-8 py-8 mx-4 my-4 md:mx-0">
+            <i class="fa-solid fa-scale-balanced text-4xl text-white"></i>
+            <h3 class="text-yellow-700 text-2xl py-2">Identification</h3>
+            <p class="text-white text-xl lg:text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, unde.</p>
+          </div>
+          <div data-aos="flip-right" class="criminal-defence text-center border border-white px-8 py-8 mx-4 my-4 md:mx-0">
+            <i class="fa-solid fa-scale-balanced text-4xl text-white"></i>
+            <h3 class="text-yellow-700 text-2xl py-2">Criminal Defence</h3>
+            <p class="text-white text-xl lg:text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, unde.</p>
+          </div>
+          <div data-aos="flip-right" class="justice-policy text-center border border-white px-8 py-8 mx-4 my-4 md:mx-0">
+            <i class="fa-solid fa-scale-balanced text-4xl text-white"></i>
+            <h3 class="text-yellow-700 text-2xl py-2">Justice Policy</h3>
+            <p class="text-white text-xl lg:text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, unde.</p>
+          </div>
+          <div data-aos="flip-right" class="court-house text-center border border-white px-8 py-8 mx-4 my-4 md:mx-0">
+            <i class="fa-solid fa-scale-balanced text-4xl text-white"></i>
+            <h3 class="text-yellow-700 text-2xl py-2">Court House</h3>
+            <p class="text-white text-xl lg:text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, unde.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Practice Are End -->
+
+    <!-- Our Attorneys Area  -->
+    <section id="team" class="attorneys-area my-12">
+      <div data-aos="fade-right" class="attorneys-heading text-center my-8">
+        <h2 class="uppercase text-2xl py-2 font-medium">our attorneys</h2>
+        <span class="horizontal-row"></span>
+        <p class="my-4 mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, neque.</p>
+      </div>
+      <div class="team-members lg:flex gap-4">
+        <div data-aos="zoom-in-up" class="member-one bg-slate-200 text-center mx-4 py-8 rounded-lg">
+          <img class="rounded-full inline mb-2 border-2 border-black" src="images/lawer1.jpg" alt="" width="150px">
+          <h3 class="text-xl font-medium">Johm Brewery</h3>
+          <h4 class="font-bold">Senior Lawer, Criminal Defence</h4>
+          <p class="pb-4 lg:mx-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, aliquam?</p>
+          <div class="social-icon text-2xl flex justify-center gap-4">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+          </div>
+        </div>
+        <div data-aos="zoom-in-down" class="member-two mt-4 lg:mt-0 bg-slate-200 text-center mx-4 py-8 rounded-lg">
+          <img class="rounded-full inline mb-2 border-2 border-black" src="images/lawer2.jpg" alt="" width="150px">
+          <h3 class="text-xl font-medium">Johm Brewery</h3>
+          <h4 class="font-bold">Senior Lawer, Criminal Defence</h4>
+          <p class="pb-4 lg:mx-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, aliquam?</p>
+          <div class="social-icon text-2xl flex justify-center gap-4">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+          </div>
+        </div>
+        <div data-aos="zoom-in-up" class="member-three mt-4 lg:mt-0 bg-slate-200 text-center mx-4 py-8 rounded-lg">
+          <img class="rounded-full inline mb-2 border-2 border-black" src="images/lawer3.png" alt="" width="150px">
+          <h3 class="text-xl font-medium">Johm Brewery</h3>
+          <h4 class="font-bold">Senior Lawer, Criminal Defence</h4>
+          <p class="pb-4 lg:mx-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, aliquam?</p>
+          <div class="social-icon text-2xl flex justify-center gap-4">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Attorneys Area End -->
+
+    <!-- Latest News Area  -->
+    <section id="blog" data-aos="zoom-in-up" class="news-area">
+      <!-- Heading Area  -->
+      <div class="news-heading text-center my-8">
+        <h2 class="uppercase text-2xl py-2 font-medium">latest news</h2>
+        <span class="horizontal-row"></span>
+        <p class="my-4 mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, neque.</p>
+      </div>
+      <!-- Blog Section  -->
+      <div class="blog-list lg:flex md:flex gap-4 lg:mx-4 md:mx-4">
+        <div class="relative mx-4 bg-gray-200 text-center pb-4 lg:mx-0 md:mx-0">
+          <span class="bg-slate-900 text-white block w-16 text-center absolute top-6 left-6">
+            <p class="py-2">25</p>
+            <p class="bg-yellow-400 py-2">Apr</p>
+          </span>
+          <img src="images/blog.jpg" alt="" width="100%">
+          <h2 class="bg-slate-900 text-white text-center py-2 text-xl">Blog Title Goes Here</h2>
+          <p class="text-center mx-2 my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, culpa!</p>
+          <button class="bg-slate-900 text-white px-2 py-2 mt-2"><a href="#">Read More</a></button>
+        </div>
+        <div class="relative mt-4 md:mt-0 lg:mt-0 lg:mx-0 md:mx-0 mx-4 bg-gray-200 text-center pb-4">
+          <span class="bg-slate-900 text-white block w-16 text-center absolute top-6 left-6">
+            <p class="py-2">25</p>
+            <p class="bg-yellow-400 py-2">Apr</p>
+          </span>
+          <img src="images/blog.jpg" alt="" width="100%">
+          <h2 class="bg-slate-900 text-white text-center py-2 text-xl">Blog Title Goes Here</h2>
+          <p class="text-center mx-2 my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, culpa!</p>
+          <button class="bg-slate-900 text-white px-2 py-2 mt-2"><a href="#">Read More</a></button>
+        </div>
+        <div class="relative mt-4 md:mt-0 lg:mt-0 lg:mx-0 md:mx-0 mx-4 bg-gray-200 text-center pb-4">
+          <span class="bg-slate-900 text-white block w-16 text-center absolute top-6 left-6">
+            <p class="py-2">25</p>
+            <p class="bg-yellow-400 py-2">Apr</p>
+          </span>
+          <img src="images/blog.jpg" alt="" width="100%">
+          <h2 class="bg-slate-900 text-white text-center py-2 text-xl">Blog Title Goes Here</h2>
+          <p class="text-center mx-2 my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, culpa!</p>
+          <button class="bg-slate-900 text-white px-2 py-2 mt-2"><a href="#">Read More</a></button>
+        </div>
+      </div>
+    </section>
+    <!-- Latest News Area End -->
+
+    <!-- Call to Action Are  -->
+    <section data-aos="fade-left" class="call-action bg-[url('images/blog.jpg')] bg-cover bg-center mx-4 lg:mx-0 lg:my-12 my-4">
+      <div class="call-background text-center bg-slate-900/[.8] py-16">
+        <div class="call-action-content">
+          <h2 class="text-2xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+          <p class="text-white my-2">Lorem ipsum dolor sit amet consectetur</p>
+          <button class="bg-white my-2 px-4 py-2"><a href="#">Call Us</a></button>
+        </div>
+      </div>
+    </section>
+    <!-- Call to Action Are End  -->
+
+    <!-- Our Client Section  -->
+    <section data-aos="fade-up" class="our-client">
+      <div class="client-heading text-center my-8">
+        <h2 class="uppercase text-2xl py-2 font-medium">our clients</h2>
+        <span class="horizontal-row"></span>
+        <p class="my-4 mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, neque.</p>
+      </div>
+      <div class="flex mx-4 justify-between items-center">
+        <img class="w-1/4" src="images/nature-logo.png " alt="">
+        <img class="w-1/4" src="images/nature-logo.png" alt="">
+        <img class="w-1/4" src="images/nature-logo.png" alt="">
+        <img class="w-1/4" src="images/nature-logo.png" alt="">
+      </div>
+    </section>
+    <!-- Our Client Section End -->
+
+    <!-- Footer Section  -->
+    <section id="contact" class="footer-area bg-slate-800 text-white mt-12">
+        <!-- Footer Top  -->
+        <div class="footer-top flex py-4 mx-4 border-b border-white justify-between items-center">
+          <h2 class="uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+          <button class="uppercase bg-yellow-400 rounded-lg px-2 md:py-2 lg:py-2"><a href="#">Free consultation</a></button>
+        </div>
+        <!-- Footer Bottom Section  -->
+        <div class="footer py-12 lg:grid md:grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="about-footer px-4">
+            <h3 class="text-white text-lg mb-2">About Us</h3>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem nisi quod, odit explicabo non quae.</p>
+            <div class="footer-social flex gap-4 mt-2">
+              <i class="fa-brands fa-twitter bg-white text-black p-2 rounded-full"></i>
+              <i class="fa-brands fa-facebook-f bg-white text-black p-2 rounded-full"></i>
+              <i class="fa-brands fa-instagram-square bg-white text-black p-2 rounded-full"></i>
+              <i class="fa-brands fa-pinterest-p bg-white text-black p-2 rounded-full"></i>
+            </div>
+          </div>
+          <div class="footer-service mt-4 lg:mt-0 md:mt-0 mx-4">
+            <h3 class="text-white text-lg mb-2">Our Services</h3>
+            <p><a href="#"><i class="fa-solid fa-caret-right"></i> Criminal Defence</a></p>
+            <p><a href="#"><i class="fa-solid fa-caret-right"></i> Criminal Defence</a></p>
+            <p><a href="#"><i class="fa-solid fa-caret-right"></i> Criminal Defence</a></p>
+          </div>
+          <div class="footer-link mt-4 lg:mt-0 md:mt-0 mx-4">
+            <h3 class="text-white text-lg mb-2">Quick Links</h3>
+            <p><a href="#"><i class="fa-solid fa-caret-right"></i> About Us</a></p>
+            <p><a href="#"><i class="fa-solid fa-caret-right"></i> Our Services</a></p>
+            <p><a href="#"><i class="fa-solid fa-caret-right"></i> Contact Us</a></p>
+          </div>
+          <div class="footer-contact mt-4 lg:mt-0 md:mt-0 mx-4">
+            <h3 class="text-white text-lg mb-2">Contact Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nihil.</p>
+            <p class="mt-2">Tel: +889834758394</p>
+            <p>Email: web@gmail.com</p>
+            <p>Address: Dhaka, Bangladesh</p>
+          </div>
+        </div>
+        <div class="copywrite py-4 px-4 border-t border-white text-center">
+          &copy; 2022. All Rights Reserved. Designed By Jubayer Hossain.
+        </div>
+    </section>
+    <!-- Footer Section End -->
+
+
+    <!-- Javascript File  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="/main.js"></script>
+    <script>
+      AOS.init({
+        duration:1000,
+      });
+    </script>
+  </body>
+</html>

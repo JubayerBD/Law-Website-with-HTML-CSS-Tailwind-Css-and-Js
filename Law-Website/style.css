@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media  screen and (min-width:1024px) {
+  .welcome,.service-area,.practice-area,.attorneys-area,.news-area,.our-client,.footer,.footer-top{
+    padding: 0 20%;
+  }
+}
+.background{
+  background: url('images/background.jpg');
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header{
+  height: 700px;
+  background-color: rgba(0,0,0,.7);
+}
+.hot-one::after{
+  content: "";
+  display: block;
+  width: 2px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  top: 7px;
+  left: 80px;
+}
+.hot-two::after{
+  content: "";
+  display: block;
+  width: 2px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  top: 7px;
+  left: 180px;
+}
+.hot-three::after{
+  content: "";
+  display: block;
+  width: 2px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  top: 7px;
+  left: 300px;
+}
+.hot-four::after{
+  content: "";
+  display: block;
+  width: 2px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  top: 7px;
+  left: 390px;
+}
+.hot-five::after{
+  content: "";
+  display: block;
+  width: 2px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  top: 7px;
+  left:510px;
+}
+
+.hot-button{
+  font-size: 10px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 48% 10% 82% 19% / 45% 0% 55% 0% ;
+  background-color: red;
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  transition: 1s;
+}
+li>a:active{
+  color: red;
+}
+
+/* Mobile Navigation  */
+@media screen and (min-width:480px) {
+  .mobile-nav{
+    display: none !important;
+  }
+}
+@media screen and (max-width:481px) {
+  .navigation,.top-header{
+    display: none !important;
+  }
+}
+
+/* Welcome Section  */
+
+span.horizontal-row {
+width: 10px;
+height: 10px;
+background: red;
+display: block;
+position: absolute;
+left: 50%;
+border-radius: 50%;
+}
+span.horizontal-row:before {
+  content: "";
+  width: 70px;
+  height: 3px;
+  background: red;
+  display: block;
+  position: absolute;
+  margin-left: -72px;
+  margin-top: 3px;
+  }
+span.horizontal-row:after {
+  content: "";
+  width: 70px;
+  height: 3px;
+  background: red;
+  display: block;
+  margin-left: 12px;
+  margin-top: 3px;
+  }
+.welcome-image{
+  background: url('images/lawer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
